@@ -46,3 +46,10 @@ Crea due array che hanno un numero di elementi diversi. Aggiungi elementi all’
     - rendilo un numero ?
     - aggiungilo alla "somma"
 - stampa "somma"
+
+## svolgimento JSnack 4
+
+- crea array nomi
+- crea array cognomi più lungo
+- **PER OGNI** elemento in più che ha l'array più lungo
+  - aggiungi elementi filler all'array più corto
