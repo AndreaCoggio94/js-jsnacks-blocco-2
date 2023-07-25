@@ -37,10 +37,16 @@ let filler = [
   "Jorge",
   "Dan",
 ];
+// list of used filler
+let usedFiller = [];
+
+// generator of missing listName elements
 
 for (let i = listName.length; i <= listSurname.length; i++) {
   let randomFiller = Math.floor(Math.random() * filler.length);
   listName.push(filler[randomFiller]);
+  usedFiller = filler.splice(randomFiller, 1);
 }
 
 console.log(listName);
+alert(listName);
