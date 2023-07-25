@@ -15,3 +15,23 @@ Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in 
 ## JSnack4 (Bonus)
 
 Crea due array che hanno un numero di elementi diversi. Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
+
+### svolgimento JSnack 1
+
+- **PROMPT** stampa "numero"
+- **SE** pari o "% 2"
+  - stampa il numero
+- **ALTRIMENTI**
+  - stampa "numero" + 1
+
+## svolgimento JSnack 2
+
+- crea lista nomi
+- crea lista cognomi
+- **PROMPT** quanti "invitati" ?
+- crea lista "da invitare"
+- **PER OGNI** "invitati"
+  - genera numero casuale per nomi
+  - genera numero casuale per cognomi
+  - prendi i due indici dalla lista corrispettiva
+  - inserisci il nome nella lista "da invitare
