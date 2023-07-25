@@ -21,7 +21,7 @@ console.log(numbers);
 let sumNumbers = 0;
 
 for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] % 2 != 0) {
+  if (i % 2 != 0) {
     sumNumbers = sumNumbers + numbers[i];
   }
 }

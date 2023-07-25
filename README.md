@@ -41,9 +41,8 @@ Crea due array che hanno un numero di elementi diversi. Aggiungi elementi all’
 - crea lista numeri interi
 - crea variabile "somma" numeri
 - **PER OGNI** lunghezza lista numeri interi
-  - **SE** dispari
+  - **SE** posizione dispari
     - prendi elemento dalla lista
-    - rendilo un numero ?
     - aggiungilo alla "somma"
 - stampa "somma"
 
