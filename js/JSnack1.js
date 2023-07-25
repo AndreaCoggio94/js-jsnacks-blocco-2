@@ -1,5 +1,3 @@
-alert("hello world");
-
 const userNumber = prompt("inserisci un numero");
 const usedNumber = parseInt(userNumber);
 
