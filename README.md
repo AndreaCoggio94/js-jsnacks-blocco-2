@@ -18,7 +18,7 @@ Crea due array che hanno un numero di elementi diversi. Aggiungi elementi all’
 
 ### svolgimento JSnack 1
 
-- **PROMPT** stampa "numero"
+- **PROMPT** scrivi "numero"
 - **SE** pari o "% 2"
   - stampa il numero
 - **ALTRIMENTI**
