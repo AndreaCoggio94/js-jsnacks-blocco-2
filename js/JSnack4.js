@@ -26,9 +26,21 @@ let listSurname = [
   "Thompson",
   "Wright",
 ];
+// list of filler
+let filler = [
+  "Wade",
+  "Dave",
+  "Seth",
+  "Ivan",
+  "Riley",
+  "Gilbert",
+  "Jorge",
+  "Dan",
+];
 
 for (let i = listName.length; i <= listSurname.length; i++) {
-  listName.push("filler");
+  let randomFiller = Math.floor(Math.random() * filler.length);
+  listName.push(filler[randomFiller]);
 }
 
 console.log(listName);
