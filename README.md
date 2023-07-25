@@ -35,3 +35,14 @@ Crea due array che hanno un numero di elementi diversi. Aggiungi elementi all’
   - genera numero casuale per cognomi
   - prendi i due indici dalla lista corrispettiva
   - inserisci il nome nella lista "da invitare
+
+## svolgimento JSnack 3
+
+- crea lista numeri interi
+- crea variabile "somma" numeri
+- **PER OGNI** lunghezza lista numeri interi
+  - **SE** dispari
+    - prendi elemento dalla lista
+    - rendilo un numero ?
+    - aggiungilo alla "somma"
+- stampa "somma"
