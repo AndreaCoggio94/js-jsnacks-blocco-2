@@ -20,8 +20,10 @@ console.log(numbers);
 
 let sumNumbers = 0;
 
+// ! fix perchè la richiesta era di avere la posizione dispari non l'indice dispari
+
 for (let i = 0; i < numbers.length; i++) {
-  if (i % 2 != 0) {
+  if (i % 2 == 0) {
     sumNumbers = sumNumbers + numbers[i];
   }
 }
